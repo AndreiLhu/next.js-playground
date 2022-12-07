@@ -1,5 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
+import Footer from "../comps/Footer";
+import Navbar from "../comps/Navbar";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -24,6 +27,7 @@ export default function Home() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum
       </p>
+      <Link href="/ninjas">See ninja List</Link>
     </div>
   );
 }
