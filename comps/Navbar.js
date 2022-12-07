@@ -6,10 +6,19 @@ const Navbar = () => {
       <div className="logo">
         <h1>Ninja List</h1>
       </div>
-      {/* do not accept the <a></a> with the <link> at the same time */}
-      <Link href="/">Home</Link>
-      <Link href="/about">About</Link>
-      <Link href="/ninjas">Ninja Listing</Link>
+      {/* adding {" "} after link tag because link do not accept the <a></a> at the same time */}
+      <Link href="/">
+        {" "}
+        <a>Home</a>
+      </Link>
+      <Link href="/about">
+        {" "}
+        <a>About</a>
+      </Link>
+      <Link href="/ninjas">
+        {" "}
+        <a>Ninja Listing</a>
+      </Link>
     </nav>
   );
 };
