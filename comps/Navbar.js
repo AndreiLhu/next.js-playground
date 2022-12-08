@@ -7,19 +7,10 @@ const Navbar = () => {
       <div className="logo">
         <Image src="/blacklogo.png" width={120} height={100} />
       </div>
-      {/* adding {" "} after link tag because link do not accept the <a></a> at the same time */}
-      <Link href="/">
-        {" "}
-        <a>Home</a>
-      </Link>
-      <Link href="/about">
-        {" "}
-        <a>About</a>
-      </Link>
-      <Link href="/ninjas">
-        {" "}
-        <a>Ninja Listing</a>
-      </Link>
+
+      <Link href="/">Home</Link>
+      <Link href="/about">About</Link>
+      <Link href="/players">Players List</Link>
     </nav>
   );
 };
