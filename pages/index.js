@@ -32,9 +32,8 @@ export default function Home() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum
         </p>
-        <Link href="/ninjas">
-          {" "}
-          <a className={styles.btn}>See ninja List</a>
+        <Link href="/ninjas" className={styles.btn}>
+          See ninja List
         </Link>
       </div>
     </>
